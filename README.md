@@ -2,15 +2,15 @@
 - basically intercepts the authorize_url
 - Whenever the user has been logged in, he's forwarded to the oAuth app's REAL authorize_url
 
-This lets you 
+## This app lets you 
 - build custom login page design
 - build custom password reset flow
 
-# Missing:
+## Missing:
 - For simplicity, the custom password reset flow/set-my-password logic
 - All images have been taken out
 
-## This example
+## This app contains
 - login page
   - after login, the user is sent back to ?redirect_url=https://some.where
 - logout page
