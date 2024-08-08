@@ -1,0 +1,15 @@
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+
+# domains
+# DON'T SET PUBLIC IN STAGING,
+# NEXT_PUBLIC_SSO_DOMAIN="example.clerk.accounts.dev"
+
+# - SET SSO_DOMAIN in staging
+SSO_DOMAIN="example.clerk.accounts.dev"
+
+# secrets
+CLERK_SECRET_KEY=sk_test_abcdef
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_abcdef
+
+# comment to run dev server with production clients
+# NEXT_PUBLIC_STAGING="yes"
